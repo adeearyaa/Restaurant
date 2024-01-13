@@ -1,0 +1,21 @@
+.review, .opening-hours, .location, .title {
+    background-color:aquamarine;
+    font-size:16px;
+    box-shadow: inset;
+    text-align:center;
+    padding:10px;
+    width:400px;
+    border-color: black;
+    border-radius:10px;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.review {
+    font-style:italic;
+}
+
+.title {
+    background-color:rgba(255, 0, 64, 0.823);
+}
+

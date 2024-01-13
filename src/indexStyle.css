@@ -1,0 +1,86 @@
+
+
+body,html {
+    height:100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+#content {
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    flex-grow:1;
+    overflow:auto;
+}
+
+.main-header {
+    display:flex;
+    background-color:black;
+    font-size:24px;
+    font-weight:bold;
+    justify-content: center;
+    align-items:center;
+    flex-grow:0;
+    padding:20px;
+    gap:10px;
+}
+
+.central-container {
+    flex-direction:column;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-grow:1;
+    background:url('./food.jpeg');
+    background-size: cover; /* Scale the image to cover the element */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center 70%; 
+    gap:30px;
+    box-sizing:border-box;
+    padding:20px;
+}
+
+.footer {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:12px;
+    background-color: black;
+    padding:10px;
+    color:white;
+}
+
+/* CSS */
+button {
+  background-color: #ea4c4c;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover,
+button:focus {
+  background-color: #f08293;
+}
